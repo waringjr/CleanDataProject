@@ -1,0 +1,15 @@
+
+
+##Source:
+This analysis is from original data, available @:
+
+[Via UCI's Machine Learning Repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip])
+
+##Data Set Information:
+In the original dataset, the subjects were split into a 'test' and 'training' sets.  The data for these sets was merged prior to analysis.
+
+-The first column of the outputted data is the subject used for the experiment.  In all, 30 subjects were monitored, and each has a unique code (1-30), which is reported in the output.
+
+-The second column contains the activity label (eg. WALKING, WALKING DOWNSTAIRS).  6 activities appear in the data frame.
+
+-The 477 values following column 2 are feature values.  These were measured for each activity per each subject.  The values were averaged across numerous sample points.  These values represent motion data in the time and and frequency domains.
